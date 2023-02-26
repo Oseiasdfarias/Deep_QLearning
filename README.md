@@ -17,4 +17,26 @@ Aprendizado profundo por Q-Learning (Deep Q-Learning) é uma técnica de aprendi
 Para esse projeto em questão, o agente que se move pelo ambiente tem sensores que verificam se tem obstáculos no tragedo, essas informações são enviadas para a rede neural artificial que retorna uma ação para o agente efetuar, que o caso é mudar o ângulo em que ele está se movendo, o objetivo é fazer o agente aprender a se mover pelo ambiente sem colidir com os obstáculos.
 O obstáculo pode ser entendido como um caminho, em que em suas bordas tem aréia, caso o agente toque na aréia, ele é punido, essa informação de punição também é usada como entrada para a rede neural.
 
+## Requisitos para executar o projeto
+
++ Pytorch
++ Matplotlib
++ kivy
+
+Instalação via pip
+
+```
+pip install Pytorch
+pip install matplotlib
+pip install kivy
+```
+
+
+## Rodando o projeto
+
+execute o arquivo map.py
+```
+python map.py
+```
+
 
