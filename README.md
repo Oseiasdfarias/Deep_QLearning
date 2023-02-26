@@ -1,6 +1,7 @@
 # Deep Q-Learning com Pytorch
 
-![]("code_dqn.png")
+<img src="./gcode_dqn.png" alt="Estrutura da Rede Neural" style="height: 50%; width:50%;"/>
+![]("")
 
 ## Descrição
 O Objetivo desse projeto é fazer com que um Agente aprenda a se mover por um ambiente, para isso será usado sensores para obter informações do ambiente e usa-las como entradas para o Algorítimo de Deep Q-Learning.
